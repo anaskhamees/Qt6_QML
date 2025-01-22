@@ -2,6 +2,8 @@
 
 **Qt** is a powerful, cross-platform development framework primarily used for creating graphical user interfaces (GUIs), although it also supports non-GUI functionalities like networking, file handling, and multimedia. It is written in C++ and provides a rich set of libraries, tools, and features for building modern applications.
 
+![Qt | Development Framework for Cross-platform Applications](README.assets/image 459.webp)
+
  **Features:**
 
 - **Cross-Platform**: Write once, deploy anywhere (Windows, macOS, Linux, Android, iOS, and embedded platforms).
@@ -148,9 +150,15 @@ The official Integrated Development Environment (IDE) for Qt development and its
 
 ### 2. **Qt Framework**
 
-The Qt framework is the core development suite provided by Qt. It consists of:
+The **Qt Framework** is a comprehensive  **cross-platform development toolkit** that enables developers to create applications and user interfaces for multiple platforms (such as Windows, macOS, Linux, iOS, Android, and embedded systems) using a unified codebase.
 
-![Qt | Development Framework for Cross-platform Applications](README.assets/image 459.webp)
+>A **framework** is a collection of pre-written code that provides a structure and reusable components for software development. 
+
+It provides a rich set of **libraries**, **tools**, and **APIs** that simplify the development of **graphical user interfaces (GUIs)**, as well as non-GUI functionalities such as networking, database handling, file I/O, threading, and more.
+
+![image-20250122151524583](README.assets/image-20250122151524583.png)
+
+
 
 #### 2.1. **Core Libraries**
 
@@ -349,5 +357,4 @@ It is the minimal set of Qt 6 modules to start QML programming.
 
   > **TIP** :
   > As these modules are not part of the release, the state of each module may differ depending on how many contributors are active and how well it’s tested.
-
 
