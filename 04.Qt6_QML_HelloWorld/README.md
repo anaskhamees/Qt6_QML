@@ -209,6 +209,146 @@ After Install Qt Creator (Qt IDE) successfully, it will appear like that :
 
   ![image-20250122223747069](README.assets/image-20250122223747069.png)
 
+>**Cmake File Explaination **
+>
+>This CMake file sets up the build process for a Qt 6 QML project. Here’s a detailed explanation of each section:
+>
+>### 1. **Basic CMake Setup**
+>
+>```cmake
+>cmake_minimum_required(VERSION 3.16)
+>```
+>
+>- Specifies the minimum required version of CMake (3.16) to build this project.
+>
+>```cmake
+>project(helloWorld VERSION 0.1 LANGUAGES CXX)
+>```
+>
+>- Defines the project name (`helloWorld`) and its version (`0.1`).
+>- Indicates the primary language for the project (`CXX` for C++).
+>
+>```cmake
+>set(CMAKE_CXX_STANDARD_REQUIRED ON)
+>```
+>
+>- Ensures the C++ standard is strictly enforced (the default standard will be determined by the compiler).
+>
+>------
+>
+>### 2. **Finding and Setting Up Qt**
+>
+>```cmake
+>find_package(Qt6 REQUIRED COMPONENTS Quick)
+>```
+>
+>- Finds the required Qt 6 package and specifies the `Quick` module (for Qt Quick/QML functionality).
+>
+>```cmake
+>qt_standard_project_setup(REQUIRES 6.5)
+>```
+>
+>- Performs standard setup tasks for a Qt project, ensuring compatibility with Qt 6.5 .
+>
+>------
+>
+>### 3. **Executable Setup**
+>
+>```cmake
+>qt_add_executable(apphelloWorld
+>    main.cpp
+>)
+>```
+>
+>- Creates an executable named `apphelloWorld` using the `main.cpp` source file.
+>
+>------
+>
+>### 4. **QML Module Definition**
+>
+>```cmake
+>qt_add_qml_module(apphelloWorld
+>    URI helloWorld
+>    VERSION 1.0
+>    QML_FILES
+>        Main.qml
+>)
+>```
+>
+>- Declares a QML module for the application:
+>  - `URI helloWorld`: Defines the URI (unique resource identifier) of the QML module as `helloWorld`.
+>  - `VERSION 1.0`: Specifies the module version.
+>  - `QML_FILES Main.qml`: Includes the `Main.qml` file as part of the module.
+>
+>This ensures that the QML file is packaged with the application and accessible via the specified URI.
+>
+>------
+>
+>### 5. **Platform-Specific Properties**
+>
+>To make this App run on Cross-platform , If you want to run this app on Linux only **Ignore this part** 
+>
+>```cmake
+>set_target_properties(apphelloWorld PROPERTIES
+>    MACOSX_BUNDLE_BUNDLE_VERSION ${PROJECT_VERSION}
+>    MACOSX_BUNDLE_SHORT_VERSION_STRING ${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR}
+>    MACOSX_BUNDLE TRUE
+>    WIN32_EXECUTABLE TRUE
+>)
+>```
+>
+>- Configures platform-specific properties for the executable:
+>  - macOS/iOS:
+>    - `MACOSX_BUNDLE`: Marks the executable as a macOS/iOS application bundle.
+>    - `MACOSX_BUNDLE_BUNDLE_VERSION`: Sets the bundle version using the project version.
+>    - `MACOSX_BUNDLE_SHORT_VERSION_STRING`: Sets the short version string (`0.1` in this case).
+>  - Windows:
+>    - `WIN32_EXECUTABLE`: Marks the application as a Windows GUI application (no console window).
+>
+>------
+>
+>### 6. **Linking Libraries**
+>
+>```cmake
+>target_link_libraries(apphelloWorld
+>    PRIVATE Qt6::Quick
+>)
+>```
+>
+>- Links the Qt 6 Quick library (`Qt6::Quick`) to the executable.
+>
+>------
+>
+>### 7. **Installation Rules**
+>
+>```cmake
+>include(GNUInstallDirs)
+>install(TARGETS apphelloWorld
+>    BUNDLE DESTINATION .
+>    LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
+>    RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
+>)
+>```
+>
+>- Defines where the built application will be installed:
+>  - **BUNDLE**: Installs the application bundle (macOS/iOS).
+>  - **LIBRARY**: Installs shared libraries to the standard library directory (e.g., `/usr/lib`).
+>  - **RUNTIME**: Installs executables to the standard binary directory (e.g., `/usr/bin`).
+>
+>------
+>
+>### Summary
+>
+>This CMake file:
+>
+>1. Sets up a Qt 6 project for building a C++/QML application.
+>2. Includes `main.cpp` and `Main.qml` for the application logic and UI.
+>3. Configures platform-specific properties for macOS, iOS, and Windows.
+>4. Links the required Qt Quick module for QML functionality.
+>5. Defines installation rules for deploying the application.
+>
+>
+
 
 
 ### 3. Build and Run the helloWorld App
