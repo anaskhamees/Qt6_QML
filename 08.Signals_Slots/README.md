@@ -34,7 +34,7 @@ The signals and slots mechanism replaces traditional callback functions, offerin
    Example:
 
    ```
-   cppCopyEditclass MyClass : public QObject {
+   class MyClass : public QObject {
        Q_OBJECT
    
    signals:
@@ -51,7 +51,7 @@ The signals and slots mechanism replaces traditional callback functions, offerin
    Example:
 
    ```
-   cppCopyEditclass MyClass : public QObject {
+   class MyClass : public QObject {
        Q_OBJECT
    
    public slots:
@@ -69,20 +69,13 @@ Signals and slots are connected using the `QObject::connect` function.
 #### 1. **With Member Functions**:
 
 ```
-cpp
-
-
-CopyEdit
 connect(sender, &SenderClass::signal, receiver, &ReceiverClass::slot);
 ```
 
 Example:
 
 ```
-cpp
 
-
-CopyEdit
 connect(button, &QPushButton::clicked, this, &MyClass::onButtonClicked);
 ```
 
@@ -91,7 +84,7 @@ connect(button, &QPushButton::clicked, this, &MyClass::onButtonClicked);
 You can connect a signal to a lambda for inline handling:
 
 ```
-cppCopyEditconnect(button, &QPushButton::clicked, this, []() {
+connect(button, &QPushButton::clicked, this, []() {
     qDebug() << "Button clicked!";
 });
 ```
@@ -103,7 +96,7 @@ In Qt Quick (QML), you can connect QML signals to C++ slots and vice versa using
 Example in QML:
 
 ```
-qmlCopyEditButton {
+Button {
     text: "Click Me"
     onClicked: cppObject.doSomething()
 }
@@ -122,32 +115,20 @@ qmlCopyEditButton {
    Example:
 
    ```
-   cpp
-   
-   
-   CopyEdit
    connect(sender, &SenderClass::signal, receiver, &ReceiverClass::slot, Qt::UniqueConnection);
    ```
-
+   
 2. **Disconnecting**: You can disconnect signals and slots explicitly:
 
    ```
-   cpp
-   
-   
-   CopyEdit
    disconnect(sender, &SenderClass::signal, receiver, &ReceiverClass::slot);
    ```
-
+   
 3. **Default Parameters**: Slots can have default parameters, and they are used when the signal is emitted.
 
    Example:
 
    ```
-   cpp
-   
-   
-   CopyEdit
    void someSlot(int value = 0);
    ```
 
