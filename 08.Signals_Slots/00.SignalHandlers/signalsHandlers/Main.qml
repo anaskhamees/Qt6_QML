@@ -14,7 +14,7 @@ Window {
         MouseArea{
             anchors.fill: parent
             //hoverTrue : to make Hovering IN/OUT Automatically
-            hoverEnabled: true
+            hoverEnabled: false
 
             // Click > Signal
             // onClicked > Handler
