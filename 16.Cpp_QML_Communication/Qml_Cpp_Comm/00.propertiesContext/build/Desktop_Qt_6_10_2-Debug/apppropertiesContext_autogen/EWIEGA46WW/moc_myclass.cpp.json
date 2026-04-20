@@ -1,0 +1,36 @@
+{
+    "classes": [
+        {
+            "className": "MyClass",
+            "lineNumber": 6,
+            "methods": [
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 16,
+                    "name": "sayHelloInvokable",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "MyClass",
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 25,
+                    "name": "sayHelloSlot",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "myclass.h",
+    "outputRevision": 69
+}

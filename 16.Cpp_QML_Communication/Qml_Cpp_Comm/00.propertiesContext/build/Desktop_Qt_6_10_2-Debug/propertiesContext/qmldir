@@ -1,0 +1,6 @@
+module propertiesContext
+typeinfo apppropertiesContext.qmltypes
+prefer :/qt/qml/propertiesContext/
+Main 254.0 Main.qml
+depends QtQuick
+

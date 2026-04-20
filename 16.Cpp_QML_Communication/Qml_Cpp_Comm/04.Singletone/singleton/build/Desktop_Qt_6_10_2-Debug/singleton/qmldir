@@ -1,0 +1,6 @@
+module singleton
+typeinfo appsingleton.qmltypes
+prefer :/qt/qml/singleton/
+Main 254.0 Main.qml
+depends QtQuick
+

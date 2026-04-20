@@ -1,0 +1,2 @@
+/home/akhamees/Qt_apps/signal_slot/build/Desktop_Qt_6_10_2-Debug/appsignal_slot_autogen/include/../EWIEGA46WW/moc_receiver.cpp.json
+/home/akhamees/Qt_apps/signal_slot/build/Desktop_Qt_6_10_2-Debug/appsignal_slot_autogen/include/../EWIEGA46WW/moc_sender.cpp.json

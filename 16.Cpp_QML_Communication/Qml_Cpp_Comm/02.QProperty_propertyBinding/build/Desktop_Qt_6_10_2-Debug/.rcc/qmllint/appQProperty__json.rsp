@@ -1,0 +1,16 @@
+--bare
+-I
+/home/akhamees/Qt_apps/QProperty_/build/Desktop_Qt_6_10_2-Debug
+-I
+/home/akhamees/Qt_apps/QProperty_/build/Desktop_Qt_6_10_2-Debug/QProperty_
+-I
+/home/akhamees/Qt_apps/QProperty_/build/Desktop_Qt_6_10_2-Debug
+-I
+/home/akhamees/Qt/6.10.2/gcc_64/qml
+--resource
+/home/akhamees/Qt_apps/QProperty_/build/Desktop_Qt_6_10_2-Debug/.qt/rcc/qmake_QProperty_.qrc
+--resource
+/home/akhamees/Qt_apps/QProperty_/build/Desktop_Qt_6_10_2-Debug/.qt/rcc/appQProperty__raw_qml_0.qrc
+/home/akhamees/Qt_apps/QProperty_/Main.qml
+--json
+/home/akhamees/Qt_apps/QProperty_/build/Desktop_Qt_6_10_2-Debug/appQProperty__qmllint.json

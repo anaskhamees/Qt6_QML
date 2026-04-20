@@ -1,0 +1,45 @@
+{
+    "classes": [
+        {
+            "className": "Counter",
+            "lineNumber": 6,
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 11,
+                    "name": "value",
+                    "notify": "valueChanged",
+                    "read": "getValue",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setValue"
+                }
+            ],
+            "qualifiedClassName": "Counter",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 20,
+                    "name": "valueChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "counter.h",
+    "outputRevision": 69
+}

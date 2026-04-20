@@ -1,0 +1,14 @@
+-rootPath
+/home/akhamees/Qt_apps/signal_slot
+-cmake-output
+-output-file
+/home/akhamees/Qt_apps/signal_slot/build/Desktop_Qt_6_10_2-Debug/.qt/qml_imports/appsignal_slot_conf.cmake
+-importPath
+/home/akhamees/Qt_apps/signal_slot/build/Desktop_Qt_6_10_2-Debug
+-importPath
+/home/akhamees/Qt_apps/signal_slot/build/Desktop_Qt_6_10_2-Debug/signal_slot
+-importPath
+/home/akhamees/Qt/6.10.2/gcc_64/qml
+-qrcFiles
+/home/akhamees/Qt_apps/signal_slot/build/Desktop_Qt_6_10_2-Debug/.qt/rcc/qmake_signal_slot.qrc
+/home/akhamees/Qt_apps/signal_slot/build/Desktop_Qt_6_10_2-Debug/.qt/rcc/appsignal_slot_raw_qml_0.qrc

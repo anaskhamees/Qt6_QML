@@ -1,0 +1,14 @@
+-rootPath
+/home/akhamees/Qt_apps/Qml_Cpp_Comm/04.Singletone/singleton
+-cmake-output
+-output-file
+/home/akhamees/Qt_apps/Qml_Cpp_Comm/04.Singletone/singleton/build/Desktop_Qt_6_10_2-Debug/.qt/qml_imports/appsingleton_conf.cmake
+-importPath
+/home/akhamees/Qt_apps/Qml_Cpp_Comm/04.Singletone/singleton/build/Desktop_Qt_6_10_2-Debug
+-importPath
+/home/akhamees/Qt_apps/Qml_Cpp_Comm/04.Singletone/singleton/build/Desktop_Qt_6_10_2-Debug/singleton
+-importPath
+/home/akhamees/Qt/6.10.2/gcc_64/qml
+-qrcFiles
+/home/akhamees/Qt_apps/Qml_Cpp_Comm/04.Singletone/singleton/build/Desktop_Qt_6_10_2-Debug/.qt/rcc/qmake_singleton.qrc
+/home/akhamees/Qt_apps/Qml_Cpp_Comm/04.Singletone/singleton/build/Desktop_Qt_6_10_2-Debug/.qt/rcc/appsingleton_raw_qml_0.qrc

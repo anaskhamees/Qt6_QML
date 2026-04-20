@@ -1,0 +1,14 @@
+-rootPath
+/home/akhamees/Qt_apps/cppSignal
+-cmake-output
+-output-file
+/home/akhamees/Qt_apps/cppSignal/build/Desktop_Qt_6_10_2-Debug/.qt/qml_imports/appcppSignal_build.cmake
+-importPath
+/home/akhamees/Qt_apps/cppSignal/build/Desktop_Qt_6_10_2-Debug
+-importPath
+/home/akhamees/Qt_apps/cppSignal/build/Desktop_Qt_6_10_2-Debug/cppSignal
+-importPath
+/home/akhamees/Qt/6.10.2/gcc_64/qml
+-qrcFiles
+/home/akhamees/Qt_apps/cppSignal/build/Desktop_Qt_6_10_2-Debug/.qt/rcc/qmake_cppSignal.qrc
+/home/akhamees/Qt_apps/cppSignal/build/Desktop_Qt_6_10_2-Debug/.qt/rcc/appcppSignal_raw_qml_0.qrc

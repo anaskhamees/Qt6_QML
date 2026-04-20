@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_appsignal_slot_FILE /home/akhamees/Qt_apps/signal_slot/build/Desktop_Qt_6_10_2-Debug/appsignal_slot)
+set(__QT_DEPLOY_TARGET_appsignal_slot_TYPE EXECUTABLE)

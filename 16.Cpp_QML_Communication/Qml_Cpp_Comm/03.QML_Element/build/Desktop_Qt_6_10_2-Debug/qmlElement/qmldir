@@ -1,0 +1,6 @@
+module qmlElement
+typeinfo appQML_ELEMENT.qmltypes
+prefer :/qt/qml/qmlElement/
+Main 254.0 Main.qml
+depends QtQuick
+

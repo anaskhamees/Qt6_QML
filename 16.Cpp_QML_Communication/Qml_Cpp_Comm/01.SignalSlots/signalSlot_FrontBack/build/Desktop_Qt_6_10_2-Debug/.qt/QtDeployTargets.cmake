@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_appcppSignal_FILE /home/akhamees/Qt_apps/cppSignal/build/Desktop_Qt_6_10_2-Debug/appcppSignal)
+set(__QT_DEPLOY_TARGET_appcppSignal_TYPE EXECUTABLE)

@@ -1,0 +1,5 @@
+--resource
+/home/akhamees/Qt_apps/cppSignal/build/Desktop_Qt_6_10_2-Debug/.qt/rcc/qmake_cppSignal.qrc
+--resource
+/home/akhamees/Qt_apps/cppSignal/build/Desktop_Qt_6_10_2-Debug/.qt/rcc/appcppSignal_raw_qml_0.qrc
+/qt/qml/cppSignal/Main.qml

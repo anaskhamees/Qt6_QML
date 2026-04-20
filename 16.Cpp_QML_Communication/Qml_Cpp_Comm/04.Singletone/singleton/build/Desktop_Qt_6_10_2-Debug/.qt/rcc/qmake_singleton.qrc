@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/singleton">
+    <file alias="qmldir">/home/akhamees/Qt_apps/Qml_Cpp_Comm/04.Singletone/singleton/build/Desktop_Qt_6_10_2-Debug/singleton/qmldir</file>
+  </qresource>
+</RCC>
+

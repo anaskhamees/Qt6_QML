@@ -1,0 +1,6 @@
+module signal_slot
+typeinfo appsignal_slot.qmltypes
+prefer :/qt/qml/signal_slot/
+Main 254.0 Main.qml
+depends QtQuick
+

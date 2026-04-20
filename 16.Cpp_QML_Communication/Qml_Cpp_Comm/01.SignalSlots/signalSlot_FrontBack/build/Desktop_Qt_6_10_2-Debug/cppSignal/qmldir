@@ -1,0 +1,6 @@
+module cppSignal
+typeinfo appcppSignal.qmltypes
+prefer :/qt/qml/cppSignal/
+Main 254.0 Main.qml
+depends QtQuick
+

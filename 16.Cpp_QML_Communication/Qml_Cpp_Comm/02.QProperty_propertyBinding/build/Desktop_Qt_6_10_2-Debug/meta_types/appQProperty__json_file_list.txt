@@ -1,0 +1,1 @@
+/home/akhamees/Qt_apps/QProperty_/build/Desktop_Qt_6_10_2-Debug/appQProperty__autogen/include/../EWIEGA46WW/moc_counter.cpp.json

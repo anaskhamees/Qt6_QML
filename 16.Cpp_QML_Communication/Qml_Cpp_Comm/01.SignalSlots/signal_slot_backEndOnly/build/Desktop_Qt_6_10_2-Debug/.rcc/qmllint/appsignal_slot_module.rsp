@@ -1,0 +1,14 @@
+-I
+/home/akhamees/Qt_apps/signal_slot/build/Desktop_Qt_6_10_2-Debug
+-I
+/home/akhamees/Qt_apps/signal_slot/build/Desktop_Qt_6_10_2-Debug/signal_slot
+-I
+/home/akhamees/Qt_apps/signal_slot/build/Desktop_Qt_6_10_2-Debug
+-I
+/home/akhamees/Qt/6.10.2/gcc_64/qml
+--resource
+/home/akhamees/Qt_apps/signal_slot/build/Desktop_Qt_6_10_2-Debug/.qt/rcc/qmake_signal_slot.qrc
+--resource
+/home/akhamees/Qt_apps/signal_slot/build/Desktop_Qt_6_10_2-Debug/.qt/rcc/appsignal_slot_raw_qml_0.qrc
+--module
+signal_slot

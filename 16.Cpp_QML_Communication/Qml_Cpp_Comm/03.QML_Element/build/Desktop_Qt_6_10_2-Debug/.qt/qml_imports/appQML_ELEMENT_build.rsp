@@ -1,0 +1,14 @@
+-rootPath
+/home/akhamees/Qt_apps/QML_ELEMENT
+-cmake-output
+-output-file
+/home/akhamees/Qt_apps/QML_ELEMENT/build/Desktop_Qt_6_10_2-Debug/.qt/qml_imports/appQML_ELEMENT_build.cmake
+-importPath
+/home/akhamees/Qt_apps/QML_ELEMENT/build/Desktop_Qt_6_10_2-Debug
+-importPath
+/home/akhamees/Qt_apps/QML_ELEMENT/build/Desktop_Qt_6_10_2-Debug/qmlElement
+-importPath
+/home/akhamees/Qt/6.10.2/gcc_64/qml
+-qrcFiles
+/home/akhamees/Qt_apps/QML_ELEMENT/build/Desktop_Qt_6_10_2-Debug/.qt/rcc/qmake_qmlElement.qrc
+/home/akhamees/Qt_apps/QML_ELEMENT/build/Desktop_Qt_6_10_2-Debug/.qt/rcc/appQML_ELEMENT_raw_qml_0.qrc

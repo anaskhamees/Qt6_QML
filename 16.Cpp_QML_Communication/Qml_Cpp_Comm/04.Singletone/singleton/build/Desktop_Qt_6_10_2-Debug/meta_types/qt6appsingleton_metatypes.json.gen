@@ -1,0 +1,66 @@
+[
+    {
+        "classes": [
+            {
+                "classInfos": [
+                    {
+                        "name": "QML.Element",
+                        "value": "auto"
+                    },
+                    {
+                        "name": "QML.Singleton",
+                        "value": "true"
+                    }
+                ],
+                "className": "Counter",
+                "lineNumber": 5,
+                "methods": [
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "lineNumber": 18,
+                        "name": "increment",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "lineNumber": 11,
+                        "name": "counter",
+                        "notify": "counterChanged",
+                        "read": "counter",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setCounter"
+                    }
+                ],
+                "qualifiedClassName": "Counter",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 20,
+                        "name": "counterChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "counter.h",
+        "outputRevision": 69
+    }
+]

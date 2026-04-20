@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_apptaskManager_FILE /home/akhamees/Qt_apps/taskManager/build/Desktop_Qt_6_10_2-Debug/apptaskManager)
+set(__QT_DEPLOY_TARGET_apptaskManager_TYPE EXECUTABLE)

@@ -1,0 +1,6 @@
+module QProperty_
+typeinfo appQProperty_.qmltypes
+prefer :/qt/qml/QProperty_/
+Main 254.0 Main.qml
+depends QtQuick
+

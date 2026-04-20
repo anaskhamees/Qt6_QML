@@ -1,0 +1,205 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-ee39cf08afb9db0afaab.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cppSignal",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_aotstats-Debug-a78eaecaa84cdedfcb49.json",
+					"name" : "all_aotstats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-bb6837a1761b6c952eea.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-6c96f2ec6e4c1846bea1.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-5f3ee6f7451a260ccbf4.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-86c4fe5a83756e84eeeb.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appcppSignal::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appcppSignal-Debug-741a26aa646458ce0bca.json",
+					"name" : "appcppSignal",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appcppSignal_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appcppSignal_autogen-Debug-c687a6e6037124a3e432.json",
+					"name" : "appcppSignal_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appcppSignal_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appcppSignal_autogen_timestamp_deps-Debug-94d3840fb108be3e209f.json",
+					"name" : "appcppSignal_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appcppSignal_copy_qml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appcppSignal_copy_qml-Debug-0a740ea179d4911ac370.json",
+					"name" : "appcppSignal_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appcppSignal_copy_res::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appcppSignal_copy_res-Debug-4591c6a137890fc625af.json",
+					"name" : "appcppSignal_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appcppSignal_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appcppSignal_qmlimportscan-Debug-7df80a1ace91495ed934.json",
+					"name" : "appcppSignal_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appcppSignal_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appcppSignal_qmllint-Debug-562034d771ee083388e9.json",
+					"name" : "appcppSignal_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appcppSignal_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appcppSignal_qmllint_json-Debug-e603b574e1fc87a2c822.json",
+					"name" : "appcppSignal_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appcppSignal_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appcppSignal_qmllint_module-Debug-65f146de27d07b995dbe.json",
+					"name" : "appcppSignal_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appcppSignal_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appcppSignal_qmltyperegistration-Debug-0cbd4eac4ace9dca2e79.json",
+					"name" : "appcppSignal_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_qmlls_build_ini_file::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_qmlls_build_ini_file-Debug-a1579ebb300abdeb8b77.json",
+					"name" : "generate_qmlls_build_ini_file",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_appcppSignal_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_appcppSignal_aotstats_target-Debug-bbbeba16e039726db58d.json",
+					"name" : "module_appcppSignal_aotstats_target",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/akhamees/Qt_apps/cppSignal/build/Desktop_Qt_6_10_2-Debug",
+		"source" : "/home/akhamees/Qt_apps/cppSignal"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

@@ -1,0 +1,42 @@
+{
+    "classes": [
+        {
+            "className": "Counter",
+            "lineNumber": 4,
+            "methods": [
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 9,
+                    "name": "increment",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "Counter",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "value",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 12,
+                    "name": "valueChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "counter.h",
+    "outputRevision": 69
+}

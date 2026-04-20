@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_appsingleton_FILE /home/akhamees/Qt_apps/Qml_Cpp_Comm/04.Singletone/singleton/build/Desktop_Qt_6_10_2-Debug/appsingleton)
+set(__QT_DEPLOY_TARGET_appsingleton_TYPE EXECUTABLE)

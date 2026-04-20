@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/taskManager">
+    <file alias="qmldir">/home/akhamees/Qt_apps/taskManager/build/Desktop_Qt_6_10_2-Debug/taskManager/qmldir</file>
+  </qresource>
+</RCC>
+

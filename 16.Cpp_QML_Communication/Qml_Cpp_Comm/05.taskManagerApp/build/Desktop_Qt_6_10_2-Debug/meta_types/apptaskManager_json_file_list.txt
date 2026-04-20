@@ -1,0 +1,1 @@
+/home/akhamees/Qt_apps/taskManager/build/Desktop_Qt_6_10_2-Debug/apptaskManager_autogen/include/../EWIEGA46WW/moc_taskmanager.cpp.json

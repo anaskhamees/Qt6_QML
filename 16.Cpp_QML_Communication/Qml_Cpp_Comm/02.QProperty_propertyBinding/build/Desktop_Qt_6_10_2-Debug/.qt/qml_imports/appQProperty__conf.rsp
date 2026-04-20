@@ -1,0 +1,14 @@
+-rootPath
+/home/akhamees/Qt_apps/QProperty_
+-cmake-output
+-output-file
+/home/akhamees/Qt_apps/QProperty_/build/Desktop_Qt_6_10_2-Debug/.qt/qml_imports/appQProperty__conf.cmake
+-importPath
+/home/akhamees/Qt_apps/QProperty_/build/Desktop_Qt_6_10_2-Debug
+-importPath
+/home/akhamees/Qt_apps/QProperty_/build/Desktop_Qt_6_10_2-Debug/QProperty_
+-importPath
+/home/akhamees/Qt/6.10.2/gcc_64/qml
+-qrcFiles
+/home/akhamees/Qt_apps/QProperty_/build/Desktop_Qt_6_10_2-Debug/.qt/rcc/qmake_QProperty_.qrc
+/home/akhamees/Qt_apps/QProperty_/build/Desktop_Qt_6_10_2-Debug/.qt/rcc/appQProperty__raw_qml_0.qrc

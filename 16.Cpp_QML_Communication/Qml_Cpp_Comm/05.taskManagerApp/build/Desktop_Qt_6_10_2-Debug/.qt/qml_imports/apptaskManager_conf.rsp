@@ -1,0 +1,15 @@
+-rootPath
+/home/akhamees/Qt_apps/taskManager
+-cmake-output
+-output-file
+/home/akhamees/Qt_apps/taskManager/build/Desktop_Qt_6_10_2-Debug/.qt/qml_imports/apptaskManager_conf.cmake
+-importPath
+/home/akhamees/Qt_apps/taskManager/build/Desktop_Qt_6_10_2-Debug
+-importPath
+/home/akhamees/Qt_apps/taskManager/build/Desktop_Qt_6_10_2-Debug/taskManager
+-importPath
+/home/akhamees/Qt/6.10.2/gcc_64/qml
+-qrcFiles
+/home/akhamees/Qt_apps/taskManager/build/Desktop_Qt_6_10_2-Debug/.qt/rcc/qmake_taskManager.qrc
+/home/akhamees/Qt_apps/taskManager/build/Desktop_Qt_6_10_2-Debug/.qt/rcc/apptaskManager_raw_qml_0.qrc
+/home/akhamees/Qt_apps/taskManager/build/Desktop_Qt_6_10_2-Debug/.qt/rcc/apptaskManager_raw_res_0.qrc

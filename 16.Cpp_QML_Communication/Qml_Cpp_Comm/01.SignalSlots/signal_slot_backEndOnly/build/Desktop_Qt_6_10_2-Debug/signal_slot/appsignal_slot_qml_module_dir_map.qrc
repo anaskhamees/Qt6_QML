@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/qt/qml/signal_slot">/home/akhamees/Qt_apps/signal_slot/build/Desktop_Qt_6_10_2-Debug/signal_slot</file>
+
+  </qresource>
+</RCC>

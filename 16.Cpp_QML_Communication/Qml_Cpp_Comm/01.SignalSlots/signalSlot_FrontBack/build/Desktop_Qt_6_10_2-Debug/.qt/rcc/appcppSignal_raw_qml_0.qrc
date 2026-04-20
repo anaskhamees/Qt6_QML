@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/cppSignal/">
+    <file alias="Main.qml">/home/akhamees/Qt_apps/cppSignal/Main.qml</file>
+  </qresource>
+</RCC>
+

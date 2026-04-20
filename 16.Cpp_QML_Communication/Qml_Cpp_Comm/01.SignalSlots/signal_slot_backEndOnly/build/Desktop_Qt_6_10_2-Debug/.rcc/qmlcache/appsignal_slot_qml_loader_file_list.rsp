@@ -1,0 +1,5 @@
+--resource
+/home/akhamees/Qt_apps/signal_slot/build/Desktop_Qt_6_10_2-Debug/.qt/rcc/qmake_signal_slot.qrc
+--resource
+/home/akhamees/Qt_apps/signal_slot/build/Desktop_Qt_6_10_2-Debug/.qt/rcc/appsignal_slot_raw_qml_0.qrc
+/qt/qml/signal_slot/Main.qml

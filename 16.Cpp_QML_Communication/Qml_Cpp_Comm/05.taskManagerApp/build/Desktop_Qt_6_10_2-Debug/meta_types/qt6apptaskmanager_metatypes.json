@@ -1,0 +1,83 @@
+[
+    {
+        "classes": [
+            {
+                "classInfos": [
+                    {
+                        "name": "QML.Element",
+                        "value": "auto"
+                    }
+                ],
+                "className": "TaskManager",
+                "lineNumber": 7,
+                "methods": [
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "lineNumber": 23,
+                        "name": "addTask",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 2,
+                        "lineNumber": 24,
+                        "name": "completeTask",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "lineNumber": 12,
+                        "name": "totalTasks",
+                        "notify": "statusChanged",
+                        "read": "getTotalTasks",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "lineNumber": 13,
+                        "name": "completedTasks",
+                        "notify": "statusChanged",
+                        "read": "getCompletedTasks",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "TaskManager",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 27,
+                        "name": "statusChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "taskmanager.h",
+        "outputRevision": 69
+    }
+]

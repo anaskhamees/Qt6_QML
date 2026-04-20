@@ -1,0 +1,22 @@
+{
+	"BUILD_DIR" : "/home/akhamees/Qt_apps/taskManager/build/Desktop_Qt_6_10_2-Debug/apptaskManager_autogen",
+	"CMAKE_BINARY_DIR" : "/home/akhamees/Qt_apps/taskManager/build/Desktop_Qt_6_10_2-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/akhamees/Qt_apps/taskManager/build/Desktop_Qt_6_10_2-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/akhamees/Qt_apps/taskManager",
+	"CMAKE_SOURCE_DIR" : "/home/akhamees/Qt_apps/taskManager",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "/home/akhamees/Qt_apps/taskManager/build/Desktop_Qt_6_10_2-Debug/apptaskManager_autogen/include",
+	"INPUTS" : [ "/home/akhamees/Qt_apps/taskManager/background.webp" ],
+	"LOCK_FILE" : "/home/akhamees/Qt_apps/taskManager/build/Desktop_Qt_6_10_2-Debug/CMakeFiles/apptaskManager_autogen.dir/AutoRcc_background_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "background" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_background.cpp",
+	"RCC_EXECUTABLE" : "/home/akhamees/Qt/6.10.2/gcc_64/libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/akhamees/Qt_apps/taskManager/build/Desktop_Qt_6_10_2-Debug/CMakeFiles/apptaskManager_autogen.dir/AutoRcc_background_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/akhamees/Qt_apps/taskManager/background.qrc",
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

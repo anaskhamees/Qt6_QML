@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/propertiesContext">
+    <file alias="qmldir">/home/akhamees/Qt_apps/propertiesContext/build/Desktop_Qt_6_10_2-Debug/propertiesContext/qmldir</file>
+  </qresource>
+</RCC>
+

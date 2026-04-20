@@ -1,0 +1,14 @@
+--bare
+-I
+/home/akhamees/Qt_apps/Qml_Cpp_Comm/04.Singletone/singleton/build/Desktop_Qt_6_10_2-Debug
+-I
+/home/akhamees/Qt_apps/Qml_Cpp_Comm/04.Singletone/singleton/build/Desktop_Qt_6_10_2-Debug/singleton
+-I
+/home/akhamees/Qt_apps/Qml_Cpp_Comm/04.Singletone/singleton/build/Desktop_Qt_6_10_2-Debug
+-I
+/home/akhamees/Qt/6.10.2/gcc_64/qml
+--resource
+/home/akhamees/Qt_apps/Qml_Cpp_Comm/04.Singletone/singleton/build/Desktop_Qt_6_10_2-Debug/.qt/rcc/qmake_singleton.qrc
+--resource
+/home/akhamees/Qt_apps/Qml_Cpp_Comm/04.Singletone/singleton/build/Desktop_Qt_6_10_2-Debug/.qt/rcc/appsingleton_raw_qml_0.qrc
+/home/akhamees/Qt_apps/Qml_Cpp_Comm/04.Singletone/singleton/Main.qml

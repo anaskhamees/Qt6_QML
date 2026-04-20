@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_apppropertiesContext_FILE /home/akhamees/Qt_apps/propertiesContext/build/Desktop_Qt_6_10_2-Debug/apppropertiesContext)
+set(__QT_DEPLOY_TARGET_apppropertiesContext_TYPE EXECUTABLE)

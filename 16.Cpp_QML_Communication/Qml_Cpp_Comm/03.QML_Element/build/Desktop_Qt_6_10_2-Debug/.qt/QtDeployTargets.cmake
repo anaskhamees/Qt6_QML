@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_appQML_ELEMENT_FILE /home/akhamees/Qt_apps/QML_ELEMENT/build/Desktop_Qt_6_10_2-Debug/appQML_ELEMENT)
+set(__QT_DEPLOY_TARGET_appQML_ELEMENT_TYPE EXECUTABLE)

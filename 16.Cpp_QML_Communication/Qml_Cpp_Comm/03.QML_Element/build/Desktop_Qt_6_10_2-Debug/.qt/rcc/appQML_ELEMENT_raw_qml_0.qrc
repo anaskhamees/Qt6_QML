@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/qmlElement/">
+    <file alias="Main.qml">/home/akhamees/Qt_apps/QML_ELEMENT/Main.qml</file>
+  </qresource>
+</RCC>
+

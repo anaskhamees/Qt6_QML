@@ -1,0 +1,47 @@
+{
+    "formatRevision": 1,
+    "modules": [
+        {
+            "moduleFiles": [
+                {
+                    "entries": [
+                        {
+                            "codegenResult": 0,
+                            "column": 27,
+                            "durationMicroseconds": 0,
+                            "functionName": "centerIn",
+                            "line": 9,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 24,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 18,
+                            "message": "Could not find signal \"clicked\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 21,
+                            "durationMicroseconds": 0,
+                            "functionName": "target",
+                            "line": 24,
+                            "message": "Cannot access value for name counter"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 13,
+                            "durationMicroseconds": 0,
+                            "functionName": "onValueChanged",
+                            "line": 25,
+                            "message": "Functions without type annotations won't be compiled"
+                        }
+                    ],
+                    "filePath": "/home/akhamees/Qt_apps/cppSignal/Main.qml"
+                }
+            ],
+            "moduleId": "cppSignal(appcppSignal)"
+        }
+    ]
+}
